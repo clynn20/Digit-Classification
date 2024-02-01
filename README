@@ -1,5 +1,5 @@
 This is a python program utilizing feed-forward neural network model to predict the handwritten digits.
-The handwritten digit images are from MSINT dataset. Each digit is a 28 x 28 grey scale image 
+The handwritten digit images are from MSINT dataset. Each digit is a 28 x 28 greyscale image 
 with values range from 0 to 256. Here we represent an image as a row vector with length 784 where the 
 image has been serialized into one long vector. Each digit has an associated class label from 0 ~ 9 corresponding to its value. This program will use three dataset splits, a training set named mnist_small_train.csv containing 5000 examples, a validation set named mnist_small_val.csv containing 1000 examples, and a test set named mnist_test.csv containing 4220 without labels. User could choose either sigmoid or ReLU as the activation function and could also change the other parameters as they want. 
 The program will generate a file named test_predicted.csv that contains the prediction labels of the test set.
